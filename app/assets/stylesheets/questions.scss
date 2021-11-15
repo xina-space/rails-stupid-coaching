@@ -1,0 +1,57 @@
+$gray: #f4f4f4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+// $spacey: SpaceGrotesk-Light_Regular;
+
+h1 {
+  font-family: 'Space Grotesk';
+}
+
+.input-box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  &:focus {
+    border: 1px solid #57dd9f;
+  }
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.back-button {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  color: black;
+  &:hover {
+    // font-weight: 500;
+    box-shadow: 5px 5px#57dd9f;
+  }
+}
+
+.dialogue {
+  padding: 20px 15px;
+  background-color: #a1e4c5;
+  font-family: 'Maison Neue';
+  margin-bottom: 50px;
+}
+
+.question {
+  font-weight: 700;
+}
+
+.answer {
+  font-weight: 700;
+}

@@ -1,0 +1,13 @@
+<h1>Stupid Coaching</h1>
+
+<div class="dialogue">
+  <p class="question"> <%= params[:question] %> </p>
+  <p>- You</p>
+</div>
+
+<div class="dialogue">
+  <p class="answer"> <%= @answer %> </p>
+  <p>- Your coach</p>
+</div>
+
+<%= link_to 'Ask another question', '/ask', class: "back-button" %>
